@@ -1,0 +1,47 @@
+.gallery {
+    padding: 6rem 0;
+
+    &__row__1 {
+        text-align: center;
+
+        p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $--text-color;
+        }
+    }
+
+    &__row__2 {
+        margin-top: 4rem;
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 1px;
+
+        .wrap-image {
+            position: relative;
+
+            &:hover .overlay {
+                visibility: visible;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+                color: #fff;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                visibility: hidden;
+
+                &__text {
+                    margin: auto;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

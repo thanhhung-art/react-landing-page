@@ -12,4 +12,29 @@
             font-size: 1.2rem;
         }
     }
+
+    &__row__2 {
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        grid-gap: 3rem;
+        margin-top: 4rem;
+
+        &__col {
+            text-align: center;
+
+            i {
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+            }
+
+            h4 {
+                margin: 2.5rem 0 .7rem;
+                font-size: 1.2rem;
+            }
+
+            p {
+                color: #fff;
+                font-size: .9rem;
+            }
+        }
+    }
 }

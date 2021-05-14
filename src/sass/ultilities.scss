@@ -50,3 +50,19 @@ h1,h1 {
 .text {
     color: $--text-color;
 }
+
+// icon
+
+.style-icons {
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem;
+    background: $--bg-gradient;
+    border-radius: 50%;
+}
+
+// img 
+
+img {
+    object-fit: cover;
+}

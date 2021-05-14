@@ -5,6 +5,9 @@ import Header from "./components/Header";
 import Features from "./components/Features";
 import AboutUs from "./components/AboutUs";
 import OurServices from "./components/OurServices";
+import Gallery from "./components/Gallery";
+import OurClients from "./components/OurClients";
+import OurTeam from "./components/OurTeam";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
       <Features />
       <AboutUs />
       <OurServices />
+      <Gallery />
+      <OurClients />
+      <OurTeam />
     </div>
   );
 }
