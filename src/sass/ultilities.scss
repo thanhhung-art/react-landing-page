@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+// btn
+
+.btn {
+    text-decoration: none;
+    background: $--bg-gradient;
+    padding: .7rem 1.8rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+// title 
+
+h1,h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-title {
+    font-size: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 100px;
+        background: $--bg-gradient;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+// text
+
+.text {
+    color: $--text-color;
+}

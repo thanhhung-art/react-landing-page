@@ -1,0 +1,55 @@
+.container-navbar {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+
+    &__logo {
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__links {
+        display: flex;
+        align-items: center;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-left: 2rem;
+                position: relative;
+                padding: .3rem 0;
+
+                &::after {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    content: "";
+                    width: 0px;
+                    height: 2px;
+                    background: $--bg-gradient;
+                    transition: width .3s;
+                }
+
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: $--text-color;
+            }
+        }
+    }
+}

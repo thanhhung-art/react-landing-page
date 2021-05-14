@@ -1,0 +1,35 @@
+.features {
+    background: $--bg-features;
+    padding: 6rem 0;
+
+    &__row__1 {
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    &__row__2 {
+        display: flex;
+        column-gap: 2rem;
+
+        &__col {
+            text-align: center;
+
+            i {
+                font-size: 2rem;
+                color: #fff;
+                padding: 2rem;
+                background: $--bg-gradient;
+                border-radius: 50%;
+            }
+
+            h4 {
+                margin: 2.5rem 0 .7rem;
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.about-us {
+    padding: 7rem 0;
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__col__1 {
+        flex-basis: 45%;
+    }
+
+    &__col__2 {
+        flex-basis: 49%;
+
+        h2 {
+            &::after {
+                width: 70px;
+                left: 0;
+                transform: none;
+            }
+        }
+
+        p {
+            margin-top: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        h3 {
+            padding-top: 1.5rem;
+        }
+
+        .list-causes {
+            display: flex;
+            column-gap: 4rem;
+            padding: 1rem 0 0 1.3rem;
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                margin: .3rem 0;
+            }
+
+            span {
+                color: $--blue;
+                margin-right: .8rem;
+            }
+        }
+    }
+}

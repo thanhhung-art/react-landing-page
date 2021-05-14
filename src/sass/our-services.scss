@@ -1,0 +1,15 @@
+.our-services {
+    background: $--bg-gradient;
+    color: #fff;
+    padding: 6rem 0;
+
+    &__row__1 {
+        text-align: center;
+        
+        p {
+            color: #fff;
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+        }
+    }
+}

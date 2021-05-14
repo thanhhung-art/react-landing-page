@@ -1,0 +1,31 @@
+.header {
+    height: 100vh;
+    background: url("../images/intro-bg.jpg") no-repeat center;
+    background-size: cover;
+
+    &__cover {
+        height: 100vh;
+        background-color: rgba(0,0,0, 0.2);
+    }
+
+    &__content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-35%);
+        text-align: center;
+        color: #fff;
+        max-width: 700px;
+
+        h1 {
+            font-size: 5rem;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 1.4rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+    }
+}
