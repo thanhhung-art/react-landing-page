@@ -27,7 +27,7 @@ function Image (props){
 function Gallery() {
     return (
         <div className="container">
-            <section className="gallery">
+            <section className="gallery" id="gallery">
                 <div className="gallery__row__1 title">
                     <h2 className="main-title">GALLERY</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste dolorem vitae</p>

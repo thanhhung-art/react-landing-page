@@ -10,13 +10,13 @@ function navbar() {
                 </div>
                 <div className="navbar__links">
                     <ul>
-                        <li><a href="#">FEATURES</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">GALLERY</a></li>
-                        <li><a href="#">TESTIMONIALS</a></li>
-                        <li><a href="#">TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#features">FEATURES</a></li>
+                        <li><a href="#about-us">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#testimonials">TESTIMONIALS</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#footer">CONTACT</a></li>
                     </ul>
                 </div>
             </nav>         

@@ -14,7 +14,7 @@ function ListsCause (props){
 
 function AboutUs() {
     return (
-        <section className="about-us">
+        <section className="about-us" id="about-us">
             <div className="container">
                 <div className="about-us__row">
                     <div className="about-us__col__1 image">

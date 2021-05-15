@@ -19,7 +19,7 @@ function Member (props){
 function OurTeam() {
     return (
         <div className="container">
-            <section className="our-team">
+            <section className="our-team" id="team">
                 <div className="our-team__row__1 title">
                     <h2 className="main-title">MEET THE TEAM</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iste dolorem vitae</p>

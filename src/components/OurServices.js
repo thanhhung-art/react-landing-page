@@ -14,7 +14,7 @@ function ColContent (props){
 
 function OurServices() {
     return (
-        <div className="our-services">
+        <div className="our-services" id="services">
             <div className="container">
                 <div className="our-services__row__1 title">
                     <h2 className="main-title">OUR SERVICES</h2>

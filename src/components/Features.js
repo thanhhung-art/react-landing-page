@@ -14,7 +14,7 @@ function FeatureComponents (props){
 
 function Features() {
     return (
-        <section className="features">
+        <section className="features" id="features">
             <div className="container">
                 <div className="features__row__1 title">
                     <h2 className="main-title">FEATURES</h2>

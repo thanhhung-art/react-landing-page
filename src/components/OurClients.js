@@ -24,7 +24,7 @@ function Client (props){
 
 function OurClients() {
     return (
-        <section className="our-clients">
+        <section className="our-clients" id="testimonials">
             <div className="container">
                 <div className="our-clients__row__1 title">
                     <h2 className="main-title">WHAT OUR CLIENTS SAY</h2>
