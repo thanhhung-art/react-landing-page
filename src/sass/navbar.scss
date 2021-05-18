@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 0;
+    flex-wrap: wrap;
 
     &__logo {
         h3 {
@@ -25,6 +26,7 @@
         ul {
             list-style: none;
             display: flex;
+            flex-wrap: wrap;
 
             li {
                 margin-left: 2rem;

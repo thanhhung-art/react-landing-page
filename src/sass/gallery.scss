@@ -21,7 +21,7 @@
             position: relative;
 
             &:hover .overlay {
-                visibility: visible;
+                opacity: 1;
             }
 
             .overlay {
@@ -35,8 +35,8 @@
                 text-align: center;
                 display: flex;
                 align-items: center;
-                visibility: hidden;
-                transition: all .1s;
+                opacity: 0;
+                transition: all .4s;
 
                 &__text {
                     margin: auto;

@@ -20,10 +20,10 @@ function Features() {
                     <h2 className="main-title">FEATURES</h2>
                 </div>
                 <div className="features__row__2 content">
-                    <FeatureComponents icon={<i class="fas fa-comments style-icons"></i>}/>
-                    <FeatureComponents icon={<i class="fas fa-bullhorn style-icons"></i>}/>
-                    <FeatureComponents icon={<i class="fas fa-users style-icons"></i>}/>
-                    <FeatureComponents icon={<i class="fas fa-magic style-icons"></i>}/>
+                    <FeatureComponents icon={<i className="fas fa-comments style-icons"></i>}/>
+                    <FeatureComponents icon={<i className="fas fa-bullhorn style-icons"></i>}/>
+                    <FeatureComponents icon={<i className="fas fa-users style-icons"></i>}/>
+                    <FeatureComponents icon={<i className="fas fa-magic style-icons"></i>}/>
                 </div>
             </div>
             

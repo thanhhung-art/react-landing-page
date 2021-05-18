@@ -18,6 +18,11 @@
     padding: .7rem 1.8rem;
     border-radius: 2rem;
     color: #fff;
+    transition: all 0.5s linear;
+
+    &:hover {
+        background: $--blue;
+    }
 }
 
 // title 

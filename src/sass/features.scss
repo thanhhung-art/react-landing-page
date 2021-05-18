@@ -9,10 +9,12 @@
 
     &__row__2 {
         display: flex;
-        column-gap: 2rem;
+        justify-content: space-between;
 
         &__col {
+            flex-basis: 40%;
             text-align: center;
+
 
             h4 {
                 margin: 2.5rem 0 .7rem;
@@ -21,6 +23,8 @@
 
             p {
                 font-size: .9rem;
+                max-width: 250px;
+                margin: 0 auto;
             }
         }
     }
