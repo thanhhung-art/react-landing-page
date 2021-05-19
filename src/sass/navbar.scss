@@ -19,6 +19,25 @@
         }
     }
 
+    &__button {
+        width: 45px;
+        height: 35px;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: .5rem;
+        cursor: pointer;
+        visibility: hidden;
+        position: relative;
+
+        .icon-bar {
+            width: 100%;
+            height: 2px;
+            background: #333;
+        }
+    }
+
     &__links {
         display: flex;
         align-items: center;

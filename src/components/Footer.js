@@ -24,7 +24,7 @@ function Footer() {
                             <h3>Contact Info</h3>
                             <div className="sub-info">
                                 <div className="title">
-                                    <span><i class="fas fa-map-marker-alt"></i></span> <h4>Address</h4>
+                                    <span><i className="fas fa-map-marker-alt"></i></span> <h4>Address</h4>
                                 </div>
                                 <div className="info">
                                     <p>4321 California St, San Francisco, CA 12345</p>
@@ -32,7 +32,7 @@ function Footer() {
                             </div>
                             <div className="sub-info">
                                 <div className="title">
-                                    <span><i class="fas fa-phone-alt"></i></span> <h4>Phone</h4>
+                                    <span><i className="fas fa-phone-alt"></i></span> <h4>Phone</h4>
                                     
                                 </div>
                                 <div className="info">
@@ -51,9 +51,9 @@ function Footer() {
                     </div>
                 </div>
                 <div className="social-links">
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-youtube"></i>
+                    <i className="fab fa-github"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-youtube"></i>
                 </div>
             </div>
         </footer>
