@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/react-landing-page/static/css/main.998e7fff.chunk.css",
+    "main.js": "/react-landing-page/static/js/main.d609c795.chunk.js",
+    "main.js.map": "/react-landing-page/static/js/main.d609c795.chunk.js.map",
+    "runtime-main.js": "/react-landing-page/static/js/runtime-main.58f6741f.js",
+    "runtime-main.js.map": "/react-landing-page/static/js/runtime-main.58f6741f.js.map",
+    "static/js/2.ed597665.chunk.js": "/react-landing-page/static/js/2.ed597665.chunk.js",
+    "static/js/2.ed597665.chunk.js.map": "/react-landing-page/static/js/2.ed597665.chunk.js.map",
+    "index.html": "/react-landing-page/index.html",
+    "static/css/main.998e7fff.chunk.css.map": "/react-landing-page/static/css/main.998e7fff.chunk.css.map",
+    "static/js/2.ed597665.chunk.js.LICENSE.txt": "/react-landing-page/static/js/2.ed597665.chunk.js.LICENSE.txt",
+    "static/media/01 (1).5132b4a4.jpg": "/react-landing-page/static/media/01 (1).5132b4a4.jpg",
+    "static/media/01-small.fbc7f0e5.jpg": "/react-landing-page/static/media/01-small.fbc7f0e5.jpg",
+    "static/media/02 (1).682e643e.jpg": "/react-landing-page/static/media/02 (1).682e643e.jpg",
+    "static/media/02-small.f005bf22.jpg": "/react-landing-page/static/media/02-small.f005bf22.jpg",
+    "static/media/03 (1).8e12b475.jpg": "/react-landing-page/static/media/03 (1).8e12b475.jpg",
+    "static/media/03-small.50c977fa.jpg": "/react-landing-page/static/media/03-small.50c977fa.jpg",
+    "static/media/04 (1).66e6548f.jpg": "/react-landing-page/static/media/04 (1).66e6548f.jpg",
+    "static/media/04-small.a8e858f7.jpg": "/react-landing-page/static/media/04-small.a8e858f7.jpg",
+    "static/media/05-small.6e541431.jpg": "/react-landing-page/static/media/05-small.6e541431.jpg",
+    "static/media/06-small.c675b90d.jpg": "/react-landing-page/static/media/06-small.c675b90d.jpg",
+    "static/media/07-small.1ecc71ca.jpg": "/react-landing-page/static/media/07-small.1ecc71ca.jpg",
+    "static/media/08-small.eb6c377e.jpg": "/react-landing-page/static/media/08-small.eb6c377e.jpg",
+    "static/media/09-small.92639fcc.jpg": "/react-landing-page/static/media/09-small.92639fcc.jpg",
+    "static/media/about.15fd68ac.jpg": "/react-landing-page/static/media/about.15fd68ac.jpg",
+    "static/media/index.scss": "/react-landing-page/static/media/intro-bg.3b91ccd8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58f6741f.js",
+    "static/js/2.ed597665.chunk.js",
+    "static/css/main.998e7fff.chunk.css",
+    "static/js/main.d609c795.chunk.js"
+  ]
+}
