@@ -11,7 +11,7 @@ function Navbar() {
             <div className="container">
             <nav className="navbar">
                 <div className="navbar__logo">
-                    <h3>REACT LANDING PAGE</h3>
+                    <a href="#"><h3>REACT LANDING PAGE</h3></a>
                 </div>
                 <div className="navbar__button" id="button" onClick={handleOpenCloseMenu}>
                     <div className="icon-bar"></div>
