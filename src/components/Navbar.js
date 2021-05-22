@@ -1,18 +1,9 @@
 import React from 'react';
 
-const button = document.getElementById("button");
-const menu = document.getElementById("menu");
-function navbar() {
-    
+function Navbar() {
+
     const handleOpenCloseMenu = () => {
-        if(menu.style.position === "static"){
-            menu.style.position = "absolute";
-            menu.style.display = "inline";
-        }
-        else {
-            menu.style.position = "static";
-            menu.style.display = "none";
-        }
+        document.getElementById("menu").classList.toggle("open-menu");
     }
 
     return (
@@ -27,7 +18,7 @@ function navbar() {
                     <div className="icon-bar"></div>
                     <div className="icon-bar"></div>
                 </div>
-                <div className="navbar__links" id="menu" style={{"position":"static"}}>
+                <div className="navbar__links" id="menu">
                     <ul>
                         <li className="list-item"><a href="#features">FEATURES</a></li>
                         <li className="list-item"><a href="#about-us">ABOUT</a></li>
@@ -44,4 +35,4 @@ function navbar() {
     )
 }
 
-export default navbar;
+export default Navbar;

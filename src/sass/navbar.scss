@@ -41,6 +41,9 @@
     &__links {
         display: flex;
         align-items: center;
+        overflow: hidden;
+        height: auto;
+        transition: all .4s ease-out;
 
         ul {
             list-style: none;

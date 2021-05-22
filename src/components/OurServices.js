@@ -21,12 +21,12 @@ function OurServices() {
                     <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel adipisci</p>
                 </div>
                 <div className="our-services__row__2 content">
-                    <ColContent icon={<i class="fab fa-wordpress style-icons"></i>} />
-                    <ColContent icon={<i class="fas fa-cart-arrow-down style-icons"></i>} />
-                    <ColContent icon={<i class="fas fa-cloud-download-alt style-icons"></i>} />
-                    <ColContent icon={<i class="fas fa-language style-icons"></i>} />
-                    <ColContent icon={<i class="fas fa-plane style-icons"></i>} />
-                    <ColContent icon={<i class="fas fa-chart-pie style-icons"></i>} />
+                    <ColContent icon={<i className="fab fa-wordpress style-icons"></i>} />
+                    <ColContent icon={<i className="fas fa-cart-arrow-down style-icons"></i>} />
+                    <ColContent icon={<i className="fas fa-cloud-download-alt style-icons"></i>} />
+                    <ColContent icon={<i className="fas fa-language style-icons"></i>} />
+                    <ColContent icon={<i className="fas fa-plane style-icons"></i>} />
+                    <ColContent icon={<i className="fas fa-chart-pie style-icons"></i>} />
                 </div>
             </div>
         </div>

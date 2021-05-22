@@ -1,5 +1,5 @@
 import "./sass/index.scss";
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Features from "./components/Features";
@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 const copyright = {
   "textAlign" : "center",
-  "padding" : "1.7rem 0 2.7rem"
+  "padding" : "1.7rem .5rem 2.7rem"
 }
 
 const styleA = {
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar/>
       <Header />
       <Features />
       <AboutUs />
